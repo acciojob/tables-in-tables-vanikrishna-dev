@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 4px double black;
+  padding: 10px;
+}
+
+.inner-table {
+  width: 100%;
+  border: 4px double black;
+}
+
+.inner-table th,
+.inner-table td {
+  border: 2px double black;
+  text-align: center;
+}
+
+th {
+  font-size: 20px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+#blackBG {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
